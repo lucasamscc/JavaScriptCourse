@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuCarrinho</title>
+</head>
+<body>
+
+    <script>
+        function minhaCarteira(){
+do{
+    var carteira = 5000;
+    var gasto = 0;
+    alert("Bem vindo à loja, produtos:\n1.Smartphone = R$ 3000\n2.Cabo = R$ 100\n3.Fone = R$ 1000\n4. Sair");
+
+    var opcao = prompt("Informe a opção:");
+    switch (opcao){
+        case 1:
+            if(carteira < gasto){
+                alert("voce esta sem saldo para tal compra, seu saldo eh de" + carteira);
+                return 0;
+            }
+            gasto = gasto + 3000;
+            carteira = carteira - gasto;
+            break;
+        case 2:
+             if(carteira < gasto){
+                alert("voce esta sem saldo para tal compra, seu saldo eh de" + carteira);
+                break;
+            }
+            gasto += 100;
+            carteira -= gasto;
+            break;
+        case 3:
+             if(carteira < gasto){
+                alert("voce esta sem saldo para tal compra, seu saldo eh de" + carteira);
+                break;
+            }
+            gasto += 1000;
+            carteira -= gasto;
+            break;
+        case 4:
+            break;
+        }
+    }while(opcao != 4);
+}
+        minhaCarteira();
+
+    </script>
+
+</body>
+</html>
+
+
+<!--    criar um programa onde voce possui saldo na carteira
+        voce compra o celular e acessorios ate esgotar o saldo    -->

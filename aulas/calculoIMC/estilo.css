@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+}
+
+form p{
+    font-family: Arial, Helvetica, sans-serif;
+    border-left-width: 15px;
+    text-decoration: solid;
+    text-shadow: 1px 1px 1px black;
+}
+
+form#imc {
+    font-size: x-large;
+}
+
+form{
+    width: 50px;
+    box-shadow: 15px;
+    
+}

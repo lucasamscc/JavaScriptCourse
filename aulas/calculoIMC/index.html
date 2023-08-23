@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="funcoes.js"> </script>
+    <title>Aula 04</title>
+</head>
+<body>
+    <img src="https://www.drrogermoura.com.br/images/artigos/tabela-imc.png"  width="250" height="250" alt="tabela com a classificação do IMC">
+
+    <form id="formulario">
+        <fieldset id="calculo" <legend>Calculo do IMC</legend>
+            <p> <input type="number" name="tKilo" placeholder="Insira seu Peso"></p>
+            <p> <input type="number" name="tMetro" placeholder="Insira a Altura em metros"></p>
+            <p> <input type="number" name="tCent"  placeholder="Insira os Cm da sua altura"></p>
+            <p> <input type="number" name="tImc"  disabled="disabled"></p>
+            <button onclick="calcularIMC('tImc');">Calcular</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

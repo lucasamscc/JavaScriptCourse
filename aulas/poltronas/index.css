@@ -1,0 +1,16 @@
+div#minhasPoltronas > img{
+    width: 10%;
+    height: 10%;
+}
+
+h1 {
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+div {
+    text-align: center;
+}

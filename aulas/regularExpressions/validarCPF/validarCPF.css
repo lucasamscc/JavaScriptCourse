@@ -1,0 +1,68 @@
+h1 {
+    font-size: 36px; /* tamanho da fonte */
+    color: #333; /* cor do texto */
+    text-align: center; /* alinhamento do texto */
+    text-transform: uppercase; /* transformação de texto em maiúsculas */
+    letter-spacing: 2px; /* espaçamento entre as letras */
+    margin-top: 50px; /* margem superior */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+
+form {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px  rgba(0,0,0, .6);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-validate {
+    background-color: darkgrey; /* cor de fundo */
+    color: white; /* cor do texto */
+    border: none; /* sem borda */
+    padding: 12px 24px; /* preenchimento */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem decoração de texto */
+    display: inline-block; /* exibição em bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 10px; /* margem */
+    cursor: pointer; /* cursor */
+    border-radius: 5px; /* borda arredondada */
+    transition-duration: 0.3s; /* duração da transição */
+  }
+  
+  .btn-validate:hover {
+    background-color:hsl(221, 26%, 66%); /* cor de fundo ao passar o mouse */
+    color: black;
+}
+  
